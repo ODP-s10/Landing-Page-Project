@@ -1,0 +1,132 @@
+body{
+    margin: auto;
+
+}
+header{
+    background: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    margin: 0;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.hero{
+    background: #1f2937;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    gap: 10px;
+}
+
+.hero-image{
+    width: 50%;
+}
+
+.hero-text{
+    width: 50%;
+}
+.hero-text h1{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.hero-text p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20 0;
+}
+
+.content-cards{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 25%;
+    gap: 20px;
+    text-align: center;
+}
+
+.quote{
+    background: #e5e7eb;
+    padding: 70px;
+    text-align: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author{
+    font-style: 16px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.action-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    padding: 20px;
+    width: 75%;
+    border-radius: 10px;
+}
+
+button{
+    background: #3882f6;
+    color: #f9faf8;
+    font-weight: bolder;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: solid 1px white;
+}
+
+img{
+    width: 200px;
+}
+
+footer{
+    background: #1f2937;
+    color:#f9faf8;
+    text-align: center;
+    padding: 20px;
+}
+
